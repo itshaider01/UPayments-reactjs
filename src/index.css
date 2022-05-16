@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .body {
+  @apply bg-col:#ECEDEC;
+} */
+@layer base {
+  body {
+    @apply bg-gray-200;
+  }
+}
